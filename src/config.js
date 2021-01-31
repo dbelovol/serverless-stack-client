@@ -1,4 +1,6 @@
 const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51IF4G2GppBZb1gBI9wYKsd2F34dthQ9LxURAwPEDLZi5zWL2IfhKeILQVdyxEP077Jrr3B3wIY3qGHL7M0xptsNW00AREuBUZD",
     s3: {
       REGION: "eu-central-1",
       BUCKET: "notes-app-upload-belovol",
